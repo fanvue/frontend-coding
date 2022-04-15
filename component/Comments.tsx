@@ -59,7 +59,6 @@ const Comments: React.FC<any> = (props) => {
           })}
         </List>
       </Fade>
-      {/* <div className={classes.head}>Comments</div> */}
     </div>
   );
 };

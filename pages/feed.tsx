@@ -6,11 +6,10 @@ import type { NextPage } from "next";
 import styles from "../styles/Home.module.css";
 
 const Feed: NextPage = ({ posts }: any) => {
-  console.log(posts);
   return (
     <div className={styles.feedContainer}>
       <Grid container spacing={2}>
-        {posts.slice(0, 10).map((post: POST) => {
+        {posts.map((post: POST) => {
           return (
             <Grid key={post.id} item xs={4}>
               <Card>

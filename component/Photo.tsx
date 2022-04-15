@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+
+import { Box, Modal } from "@mui/material";
 import React, { useState } from "react";
 
-import { Box } from "@mui/material";
-import Modal from "@mui/material/Modal";
 import { PHOTO } from "../types/jsonplaceholder";
 
 const style = {
