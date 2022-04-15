@@ -11,7 +11,7 @@ const Feed: NextPage = ({ posts }: any) => {
       <Grid container spacing={2}>
         {posts.map((post: POST) => {
           return (
-            <Grid key={post.id} item xs={4}>
+            <Grid key={post.id} item xs={6} sm={4} md={3}>
               <Card>
                 <CardContent>
                   <Typography

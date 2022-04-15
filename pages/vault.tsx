@@ -12,7 +12,7 @@ const Feed: NextPage = ({ photos }: any) => {
         <Grid container spacing={2}>
           {photos.map((item: PHOTO) => {
             return (
-              <Grid key={item.id} item xs={1}>
+              <Grid key={item.id} item xs={6} sm={4} md={2}>
                 <Photo photo={item} />
               </Grid>
             );
