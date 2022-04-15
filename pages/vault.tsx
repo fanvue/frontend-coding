@@ -1,4 +1,4 @@
-import { Box, Grid } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 
 import type { NextPage } from "next";
 import { PHOTO } from "../types/jsonplaceholder";
@@ -8,6 +8,9 @@ import styles from "../styles/Home.module.css";
 const Feed: NextPage = ({ photos }: any) => {
   return (
     <div className={styles.container}>
+      <Typography variant="h4" component="h1" gutterBottom>
+        A grid of photos
+      </Typography>
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           {photos.map((item: PHOTO) => {

@@ -8,6 +8,9 @@ import styles from "../styles/Home.module.css";
 const Feed: NextPage = ({ posts }: any) => {
   return (
     <div className={styles.feedContainer}>
+      <Typography variant="h4" component="h1" gutterBottom>
+        A very long feed of posts (comments are expandable on click)
+      </Typography>
       <Grid container spacing={2}>
         {posts.map((post: POST) => {
           return (
