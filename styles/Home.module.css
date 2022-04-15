@@ -1,5 +1,9 @@
 .container {
-  padding: 0 2rem;
+  padding: 2rem;
+}
+.feedContainer {
+  background-color: gainsboro;
+  padding: 2rem;
 }
 
 .main {
