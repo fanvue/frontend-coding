@@ -1,3 +1,13 @@
+# Solution Notes:
+
+The solution took me three hours to complete. As I only have basic knowledge of Typescript I decided to do it in Javascript which I'm more comfortable with.
+
+Regarding the thumbnail click display image, I decided to use a simple anchor tag rather than adding new dependencies that could display the large image in a more advanced way, but I think this should be enough for the required changes below.
+
+What I would do to make this production ready would be to add more error handling, handling of edge cases, and unit tests with Jest.
+
+# -----------------------------
+
 # frontend-coding
 
 Setup the project:
